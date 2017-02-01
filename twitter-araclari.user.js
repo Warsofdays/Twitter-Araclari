@@ -6,7 +6,7 @@
 // @exclude    	 https://twitter.com/intent/*
 // @grant        none
 // @require   	 https://code.jquery.com/jquery-1.8.3.min.js
-// @icon        http://www.nebigarci.net/wp-content/uploads/eklentiler/logonta.png
+// @icon        https://raw.githubusercontent.com/Warsofdays/Twitter-Araclari/master/taclogo.png
 // @supportURL  https://github.com/Warsofdays/Twitter-Araclari
 // @homepageURL https://github.com/Warsofdays
 // @updateURL 	https://github.com/Warsofdays/Twitter-Araclari/raw/master/twitter-araclari.user.js
@@ -1030,8 +1030,6 @@ $("#liteyi_takip_et").click(function(){
 	        if(localStorage.getItem("ztn-tkp") == "true"){
 	        	$(".FollowStatus").parents(".Grid-cell.u-size1of2.u-lg-size1of3.u-mb10").remove();
 	        }
-	        //beni takip etmesin
-	        $(".ProfileCard[data-screen-name='nebigarci']").parents(".Grid-cell.u-size1of2.u-lg-size1of3.u-mb10").remove();
 			//+18 hesapları takip etme // 
 			if(localStorage.getItem("arti-18") == "true"){
 	        	$(".ProfileCard-bio.u-dir").each(function(){
