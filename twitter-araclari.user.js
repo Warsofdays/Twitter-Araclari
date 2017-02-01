@@ -2,6 +2,7 @@
 // @name         Twitter Araçları
 // @version      2.3.4
 // @author       Warsofdays
+// @description  Takip etme, takipten çıkma, favoriye ekleme, RT kapatma, dm gönderme ve fazlası.
 // @match        https://twitter.com/*
 // @exclude    	 https://twitter.com/intent/*
 // @grant        none
